@@ -1,2 +1,14 @@
 venv/
 .idea/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+dist/
+build/
+*.egg-info/
+.env/

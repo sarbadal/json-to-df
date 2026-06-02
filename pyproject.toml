@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "json-to-df"
+version = "0.1.0"
+description = """
+A simple library to convert JSON data into Pandas DataFrames.
+"""
+readme = "README.MD"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Sarbadal Pal"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas"
+]
+
+[project.urls]
+homepage = "https://github.com/sarbadal/json-dict-2-dataframe"
+repository = "https://github.com/sarbadal/json-dict-2-dataframe"
+issues = "https://github.com/sarbadal/json-dict-2-dataframe/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+json_to_df = [
+    "*.py"
+]
