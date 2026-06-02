@@ -44,6 +44,12 @@ Input and Behavior Notes
 - Nested conversion expects mapping-like objects where required.
 - Invalid loader input raises ValueError during normalization/parsing.
 
+Project Links
+-------------
+
+- `GitHub: json-to-df repository <https://github.com/sarbadal/json-to-df>`_
+- `PyPI: json-to-frame on PyPI <https://pypi.org/project/json-to-frame/>`_
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
