@@ -1,6 +1,10 @@
 import os
 import sys
+import time
  
+os.environ["TZ"] = "Asia/Kolkata"
+time.tzset()
+
 # Add your package root to PYTHONPATH
 sys.path.insert(0, os.path.abspath('../..'))
 
@@ -8,7 +12,7 @@ def setup(app):
     app.add_js_file('custom.js')
 
 html_title = '🐔 JsonToFrame'
-project = 'JsonToFrame'
+project = '🐔 JsonToFrame'
 copyright = '2026, Sarbadal Pal'
 author = 'Sarbadal Pal'
 release = '0.0.1'
@@ -31,8 +35,8 @@ html_context = {
 }
  
 html_theme = 'sphinx_rtd_theme'
-html_last_updated_use_utc = True
-html_last_updated_fmt = "%Y-%m-%d %H:%M:%S UTC"
+html_last_updated_use_utc = False
+html_last_updated_fmt = "%Y-%m-%d %H:%M:%S IST"
  
 html_static_path = ['_static']
 html_css_files = [
