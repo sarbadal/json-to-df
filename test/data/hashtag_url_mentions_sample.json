@@ -1,0 +1,15 @@
+{"entities": {
+    "hashtags": [{
+      "text": "Angular",
+      "indices": [103, 111]
+    }],
+    "symbols": [{"key": 11}],
+    "user_mentions": [{"unknown_id": -9}],
+    "urls": [{
+      "url": "https://t.co/xFox78juL1",
+      "expanded_url": "http://buff.ly/2sr60pf",
+      "display_url": "buff.ly/2sr60pf",
+      "indices": [79, 102]
+    }]
+  }
+}
