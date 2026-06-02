@@ -1,0 +1,101 @@
+.rst-versions {
+    display: none !important;
+}
+
+table.docutils {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+#rtd-footer-content {
+    display: none !important;
+}
+
+.wy-side-nav-search .switch-menus {
+    display: none !important;
+}
+
+.switch-menus {
+    display: none !important;
+}
+
+.floating.container.bottom-right {
+    display: none !important;
+}
+
+readthedocs-flyout {
+    display: none !important;
+}
+
+/* Hide Ethical Ads and Sidebar elements */
+.switch-menus, 
+.ethical-sidebar, 
+.ea-placement, 
+.ea-type-text, 
+.floating.container.bottom-right,
+readthedocs-flyout,
+#rtd-footer-container {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    pointer-events: none !important;
+}
+
+.wy-nav-content {
+    max-width: 800px !important;  /* For sphinx_rtd_theme */
+}
+
+body .document {
+    max-width: 800px !important;  /* For alabaster and others */
+}
+
+.rst-footer .footer, .rst-footer .footer .rst-footer-buttons {
+    display: none !important;
+}
+
+/* Change font and color for the main title (usually h1) */
+h1 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    /* color: #464646; */
+    font-size: 2em !important;
+}
+
+/* Change font and color for toctree captions */
+.toctree-caption, .caption {
+    font-family: 'Georgia', serif;
+    color: #313130;
+    font-size: 1.2em !important;
+}
+
+/* Fix caption alignment (Section headers) */
+.wy-menu-vertical p.caption {
+    margin-left: 0 !important;
+    padding-left: 0.75em !important;
+}
+
+
+.left-details {
+    color: transparent !important;
+}
+
+.left-details a {
+    display: none !important;
+    color: transparent !important;
+}
+
+.copyright {
+    color: var(--color-foreground-primary) !important;
+}
+
+.last-updated {
+    color: var(--color-foreground-primary) !important;
+    font-size: 0.9em !important;
+    margin-top: 1em !important;
+}
+
+/* Target the specific "Last Updated" span */
+footer .last-updated {
+    margin-left: auto;
+    text-align: right;
+}
