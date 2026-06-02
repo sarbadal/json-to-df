@@ -138,11 +138,11 @@ jobs:
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
-        run: python3 -m twine upload dist/*
+        run: python3 -m twine upload --verbose --non-interactive dist/*
 
   github_release:
     name: Create GitHub Release
-    needs: [setup_and_build, details]
+    needs: [pypi_publish, setup_and_build, details]
     runs-on: ubuntu-latest
     permissions:
       contents: write
