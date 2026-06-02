@@ -1,4 +1,4 @@
-# json-dict-2-dataframe
+# JSON to Pandas Dataframe
 
 Convert nested JSON objects into flat pandas DataFrames with a simple Python API.
 
