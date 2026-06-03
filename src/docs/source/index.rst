@@ -44,6 +44,8 @@ Input and Behavior Notes
 - Nested conversion expects mapping-like objects where required.
 - Invalid loader input raises ValueError during normalization/parsing.
 
+Example: :doc:`Deep Nested examples <example>` shows how a deeply nested quiz JSON is converted into a flat DataFrame with expanded rows for list fields.
+
 Project Links
 -------------
 
@@ -58,5 +60,6 @@ Project Links
    getting-started
    usage-examples
    api-reference
+   example
    testing-and-validation
    development-notes
